@@ -9,3 +9,5 @@
  - [log4netConfig.xml](log4netConfig.xml) C# 日志记录模块 log4net 常用的配置文件
 
  - [visualstudio.vssettings](visualstudio.vssettings) Visual Studio 配置文件
+
+ - [datagripsettings.jar](datagripsettings.jar) JetBrains DataGrip 配置文件
