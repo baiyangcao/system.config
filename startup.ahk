@@ -1,5 +1,5 @@
 ﻿; 使用 code 编辑这个脚本
-^!a::
+^!+a::
   run, "C:\Program Files (x86)\Microsoft VS Code\Code.exe" "C:\Users\baiya\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup\startup.ahk"
 Return
 
@@ -31,4 +31,9 @@ Return
 ; 启动 Visual Studio 2017
 ^!v::
   run, C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\Common7\IDE\devenv.exe, C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\Common7\IDE
+Return
+
+; 启动打开 BingDict 
+#b::
+  run, "C:\Program Files (x86)\Microsoft Bing Dictionary\BingDict.exe"
 Return
