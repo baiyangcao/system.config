@@ -37,3 +37,14 @@ Return
 #b::
   run, "C:\Program Files (x86)\Microsoft Bing Dictionary\BingDict.exe"
 Return
+
+; 获取鼠标点RGB值到粘贴板
+#p::
+MouseGetPos, mouseX, mouseY
+PixelGetColor, color, %mouseX%, %mouseY%, RGB
+StringRight color,color,6
+clipboard = %color%
+tooltip, Pixel color %color% sent to clipboard.
+sleep 2000
+tooltip,
+return
